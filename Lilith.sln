@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lilith", "Lilith\Lilith.vcxproj", "{D7504290-4CA2-4EA9-B2E0-DE7236D992F9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{715F853A-BBBA-4BC8-A742-183ECD80EF27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LilithDLL", "LilithDLL\LilithDLL.vcxproj", "{C06F6BDA-2414-496F-B922-BDE96C4F7210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,8 +33,19 @@ Global
 		{715F853A-BBBA-4BC8-A742-183ECD80EF27}.Release|x64.Build.0 = Release|x64
 		{715F853A-BBBA-4BC8-A742-183ECD80EF27}.Release|x86.ActiveCfg = Release|Win32
 		{715F853A-BBBA-4BC8-A742-183ECD80EF27}.Release|x86.Build.0 = Release|Win32
+		{C06F6BDA-2414-496F-B922-BDE96C4F7210}.Debug|x64.ActiveCfg = Debug|x64
+		{C06F6BDA-2414-496F-B922-BDE96C4F7210}.Debug|x64.Build.0 = Debug|x64
+		{C06F6BDA-2414-496F-B922-BDE96C4F7210}.Debug|x86.ActiveCfg = Debug|Win32
+		{C06F6BDA-2414-496F-B922-BDE96C4F7210}.Debug|x86.Build.0 = Debug|Win32
+		{C06F6BDA-2414-496F-B922-BDE96C4F7210}.Release|x64.ActiveCfg = Release|x64
+		{C06F6BDA-2414-496F-B922-BDE96C4F7210}.Release|x64.Build.0 = Release|x64
+		{C06F6BDA-2414-496F-B922-BDE96C4F7210}.Release|x86.ActiveCfg = Release|Win32
+		{C06F6BDA-2414-496F-B922-BDE96C4F7210}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5237D5C-445D-462E-A13F-4775A49C0BF7}
 	EndGlobalSection
 EndGlobal
